@@ -1,0 +1,21 @@
+{the packaage.json files contains all the dependency requirements to run the application.}
+the server.js  is the main file that bring sever information to the user. It contains express, express sessions, the models and the routes. 
+the api-routes.js is the application programming interface. it creates  communication tunnels from the db to client. it help with updates, and signin etc.
+
+connects the html between user and database in a visual form it gets all the other html files and the css style sheets.
+
+in the js folder, the login, the members and signup files all contain the logic to  grant access, and login.
+
+the models folder contains the both the index and user.js files.
+the user.js creates a user model for the database.
+
+the index.js grants user access to the database .
+
+the passport files finds the user in the database, it validates the password by comparing it to the user model in the models folder.
+the config.json file contains a jason object that is the environment varaible such as: production, testing and development.
+
+the middleware folder contains the isAutenticated.js files grants access to db if the user does not have access, it redirect them to login or sign up page.
+
+
+
+
